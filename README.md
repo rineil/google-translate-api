@@ -18,7 +18,7 @@ npm install --save google-translate-api
 From automatic language detection to English:
 
 ``` js
-const translate = require('google-translate-api');
+const translate = require('@rineil/google-translate-api');
 
 translate('I speak Japanese', {to: 'ja'}).then(res => {
     console.log(res.text);
