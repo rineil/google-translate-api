@@ -11,7 +11,7 @@ A **free** and **unlimited** API for Google Translate :dollar::no_entry_sign:
 ## Install 
 
 ```
-npm install --save google-translate-api
+npm i --save @rineil/google-translate-api
 ```
 
 ## Usage
