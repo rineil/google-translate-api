@@ -1,5 +1,5 @@
 {
-  "name": "google-translate-api",
+  "name": "@rineil/google-translate-api",
   "version": "1.0.2",
   "description": "Free API for translate using google translate api",
   "main": "index.js",
