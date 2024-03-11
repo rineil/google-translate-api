@@ -11,14 +11,14 @@ A **free** and **unlimited** API for Google Translate :dollar::no_entry_sign:
 ## Install 
 
 ```
-npm i --save @rineil/google-translate-api
+npm i --save google-translate-api-jp
 ```
 
 ## Usage
 From automatic language detection to English:
 
 ``` js
-const translate = require('@rineil/google-translate-api');
+const translate = require('google-translate-api-jp');
 
 translate('I speak Japanese', {to: 'ja'}).then(res => {
     console.log(res.text);

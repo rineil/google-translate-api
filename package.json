@@ -1,7 +1,7 @@
 {
-  "name": "@rineil/google-translate-api",
-  "version": "1.0.2",
-  "description": "Free API for translate using google translate api",
+  "name": "google-translate-api-jp",
+  "version": "1.0.1",
+  "description": "Free API for translate using google translate api for JP",
   "main": "index.js",
   "scripts": {
     "test": "xo && nyc ava",
@@ -9,12 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rineil/google-translate-api.git"
+    "url": "https://github.com/rineil/google-translate-api.git"
   },
   "keywords": [
     "translate",
     "google",
-    "api"
+    "api",
+    "japanese"
   ],
   "author": "rineil",
   "license": "MIT",
@@ -23,10 +24,14 @@
   },
   "homepage": "https://github.com/rineil/google-translate-api#readme",
   "dependencies": {
+    "configstore": "^6.0.0",
     "google-translate-token": "^1.0.0",
+    "got": "^14.2.1",
     "safe-eval": "^0.4.1"
   },
   "devDependencies": {
+    "ava": "^6.1.2",
+    "codecov": "^3.8.3",
     "coveralls": "^3.1.1",
     "nyc": "^15.1.0",
     "xo": "^0.57.0"
